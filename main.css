@@ -1,11 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Palette+Mosaic&display=swap');
 
 #user_name,
 #user_address--delivery,
-#order--pies {
+#order_quantity--pizza {
     width: 50%;
 }
 
 body {
-    color: #000;
+    color: #fff;
     background-image: url("/img/pizza_bg.png");
+    font-family: 'Bebas Neue', cursive;
+}
+
+a {
+    font-family: inherit;
+    color: inherit;
+}
+
+.link-banner {
+    background-color: #9b1d20;
+    max-width: 75%;
+}
+
+.brand-title {
+    font-family: 'Palette Mosaic', cursive;
+    color: #ee8585;
+}
+
+fieldset label {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+legend.pizza-size {
+    margin-top: 1rem;
+}
+
+legend.toppings {
+    font-size: 1.1rem;
 }
