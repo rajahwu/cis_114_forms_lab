@@ -4,3 +4,8 @@
 #order--pies {
     width: 50%;
 }
+
+body {
+    color: #000;
+    background-image: url("/img/pizza_bg.png");
+}
